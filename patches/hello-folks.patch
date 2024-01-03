@@ -1,0 +1,14 @@
+diff --git a/hello_poetry2nix/__init__.py b/hello_poetry2nix/__init__.py
+index 0310c44..ee9717f 100644
+--- a/hello_poetry2nix/__init__.py
++++ b/hello_poetry2nix/__init__.py
+@@ -1,6 +1,6 @@
+ import fire
+
+-def hello(name="poetry2nix"):
++def hello(name="folks"):
+     return "Hello %s!" % name
+
+ def main():
+--
+2.42.0
